@@ -1,5 +1,5 @@
 # FilterLists Dark Mode
-Dark theme for filterlists.com for uBO, AdGuard and Stylus.
+Dark theme for [filterlists.com](https://filterlists.com) for uBO, AdGuard and Stylus.
 
 <img src="https://userstyles.org/style_screenshots/164059_after.png">
 
