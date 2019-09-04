@@ -1,5 +1,5 @@
 # FilterLists Dark Mode
-Dark theme for [filterlists.com](https://filterlists.com) for ![uBO_icon_16](https://user-images.githubusercontent.com/22258847/58104215-675c2d00-7bb2-11e9-9ef7-53bd5d32139c.png), ![adguard_icon_16](https://user-images.githubusercontent.com/22258847/58104254-7d69ed80-7bb2-11e9-989b-a0a73db4d808.png), ![Stylus](https://cdn.add0n.com/icons/stylus16.png) and <img src="https://violentmonkey.github.io/static/vm-e0d9ed50fb982761b0f7cdea8b093ae9.png" height=16 width=16>.
+Dark theme for [filterlists.com](https://filterlists.com) for ![uBO_icon_16](https://user-images.githubusercontent.com/22258847/58104215-675c2d00-7bb2-11e9-9ef7-53bd5d32139c.png "uBlock Origin"), ![nano_icon_16](https://user-images.githubusercontent.com/22258847/58104236-7347ef00-7bb2-11e9-86c3-7f1646118e7e.png "Nano Adblocker"), ![adguard_icon_16](https://user-images.githubusercontent.com/22258847/58104254-7d69ed80-7bb2-11e9-989b-a0a73db4d808.png "AdGuard"), ![Stylus](https://cdn.add0n.com/icons/stylus16.png "Stylus") and <img src="https://violentmonkey.github.io/static/vm-e0d9ed50fb982761b0f7cdea8b093ae9.png" height=16 width=16 title="Violentmonkey">.
 
 <img src="https://userstyles.org/style_screenshots/164059_after.png">
 
