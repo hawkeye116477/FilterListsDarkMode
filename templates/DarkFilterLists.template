@@ -1,0 +1,9 @@
+! Title: FilterLists Dark Mode
+! Description: Dark theme for filterlists.com for uBO & AdGuard
+! Codename: Dark FilterLists
+! Last modified: @modified
+! Version: @version
+! Expires: 2 days
+!
+!
+@include theme
