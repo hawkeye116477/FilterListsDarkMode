@@ -1,8 +1,8 @@
 ! Title: FilterLists Dark Mode
 ! Description: Dark theme for filterlists.com for uBO & AdGuard
 ! Codename: Dark FilterLists
-! Last modified: Wed, 04 Sep 2019, 15:17 UTC+02
-! Version: 2019.9.3
+! Last modified: Sun, 08 Sep 2019, 00:18 UTC+02
+! Version: 2019.9.4
 ! Expires: 2 days
 ! License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 !
@@ -25,6 +25,7 @@ filterlists.com##.ant-dropdown-menu-item-selected, .ant-dropdown-menu-item-selec
 filterlists.com##.ant-dropdown-menu-item:hover, .ant-dropdown-menu-submenu-title:hover:style(background-color: dimgray !important;)
 filterlists.com##.ant-dropdown-open:style(background: #12171a !important; color: white !important;)
 filterlists.com##.ant-empty-description:style(color: white !important;)
+filterlists.com##.ant-pagination-disabled a:style(color: dimgray !important;)
 filterlists.com##.ant-pagination-simple .ant-pagination-simple-pager input, .ant-input :style(border: 1px solid dimgray;)
 filterlists.com##.ant-pagination-simple-pager > input:style(background: inherit !important;)
 filterlists.com##.ant-pagination-simple-pager:style(color: white !important;)
@@ -34,6 +35,7 @@ filterlists.com##.ant-table-placeholder:style(background: #212529 !important; bo
 filterlists.com##.ant-table-row, .ant-table-header-column, .ant-table-thead, .ant-input:style(background: #212529 !important; color: white !important;)
 filterlists.com##.ant-table-tbody > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td, .ant-table-tbody > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td, .ant-table-thead > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td, .ant-table-thead > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td:style(background: rgb(17, 17, 17, 0.8) !important;)
 filterlists.com##.ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters .ant-table-filter-icon.ant-table-filter-open,.ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters .anticon-filter.ant-table-filter-open, .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters:hover .ant-table-filter-icon:hover, .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters:hover .anticon-filter:hover:style(color: white !important; background: black !important;)
-filterlists.com##.ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-sorters:hover, .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-sorters:hover .ant-table-filter-icon, .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-sorters:hover .anticon-filter:style(background: black !important;)
+filterlists.com##.ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-sorters:hover .ant-table-filter-icon, .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-sorters:hover .anticon-filter:style(background: black !important;)
+filterlists.com##.ant-table-thead>tr>th .ant-table-header-column .ant-table-column-sorters:hover:before:style(background: black !important;)
 filterlists.com##.ant-tag:style(border-color: dimgray !important;)
 filterlists.com##[alt="FilterLists logo"]:style(background: transparent !important;)
