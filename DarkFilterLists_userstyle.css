@@ -1,0 +1,207 @@
+@-moz-document domain("filterlists.com")
+{
+    .ant-table-tbody > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td,
+    .ant-table-tbody > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td,
+    .ant-table-thead > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td,
+    .ant-table-thead > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td
+    {
+        background: rgb(17, 17, 17, 0.8) !important;
+    }
+
+    .ant-dropdown-menu-item-selected,
+    .ant-dropdown-menu-item-selected > a,
+    .ant-dropdown-menu-submenu-title-selected,
+    .ant-dropdown-menu-submenu-title-selected > a
+    {
+        background-color: dimgray !important;
+    }
+
+    .ant-dropdown-menu-item:hover,
+    .ant-dropdown-menu-submenu-title:hover
+    {
+        background-color: dimgray !important;
+    }
+
+    .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters .ant-table-filter-icon.ant-table-filter-open,
+    .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters .anticon-filter.ant-table-filter-open,
+    .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters:hover .ant-table-filter-icon:hover,
+    .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters:hover .anticon-filter:hover
+    {
+        color: white !important;
+        background: black !important;
+    }
+
+    .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-sorters:hover .ant-table-filter-icon,
+    .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-sorters:hover .anticon-filter
+    {
+        background: black !important;
+    }
+
+    .ant-table-row,
+    .ant-table-header-column,
+    .ant-table-thead,
+    .ant-input
+    {
+        background: #212529 !important;
+        color: white !important;
+    }
+
+    body,
+    .ant-layout-content > div,
+    .ant-layout-footer
+    {
+        background: #212529 !important;
+    }
+
+    .ant-drawer-wrapper-body,
+    .ant-btn-default,
+    .ant-tag
+    {
+        background: #24292e !important;
+        color: white !important;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    a
+    {
+        color: white !important;
+    }
+
+    .ant-drawer-header
+    {
+        background: #24292e !important;
+    }
+
+    .ant-drawer-header > *,
+    .ant-dropdown-menu-item
+    {
+        color: white !important;
+    }
+
+    .ant-table-filter-dropdown,
+    .ant-dropdown-menu
+    {
+        background: black !important;
+        color: white !important;
+    }
+
+    .ant-pagination-simple-pager
+    {
+        color: white !important;
+    }
+
+    .ant-pagination-simple-pager > input
+    {
+        background: inherit !important;
+    }
+
+    tr,
+    td,
+    th,
+    .ant-table
+    {
+        border-color: black !important;
+    }
+
+    .ant-pagination-simple .ant-pagination-simple-pager input,
+    .ant-input
+    {
+        border: 1px solid dimgray;
+    }
+
+    .ant-dropdown-open
+    {
+        background: #12171a !important;
+        color: white !important;
+    }
+
+    .ant-tag
+    {
+        border-color: dimgray !important;
+    }
+
+    .ant-btn-sm
+    {
+        background-color: #24292e;
+        color: white;
+        border: 1px solid dimgray;
+    }
+
+    .ant-btn-sm:hover
+    {
+        background-color: #24292e;
+        color: DodgerBlue;
+        border: 1px solid DodgerBlue;
+    }
+
+    .ant-btn-primary:focus,
+    .ant-btn-primary:hover
+    {
+        color: #fff;
+        background-color: #40a9ff;
+        border-color: #40a9ff;
+    }
+
+    .ant-btn-primary
+    {
+        background-color: #1890ff;
+    }
+
+    .ant-drawer-body .ant-btn-group .ant-btn
+    {
+        border-left-color: dimgray !important;
+        border: 1px solid dimgray;
+    }
+
+    .ant-drawer-body .ant-btn-group .ant-btn:hover
+    {
+        border: 1px solid DodgerBlue !important;
+    }
+
+    .ant-divider
+    {
+        background-color: dimgray !important;
+    }
+
+    .ant-drawer-header
+    {
+        border-bottom-color: dimgray !important;
+    }
+
+    .ant-table-filter-dropdown-link,
+    .ant-dropdown-menu-submenu-title-selected,
+    .ant-dropdown-menu-submenu-title-selected > a,
+    .ant-pagination-next:not(.ant-pagination-disabled) .ant-pagination-item-link:hover,
+    .ant-pagination-prev:not(.ant-pagination-disabled) .ant-pagination-item-link:hover
+    {
+        color: DodgerBlue !important;
+    }
+
+    .ant-table-placeholder
+    {
+        background: #212529 !important;
+        border-top: 1px solid black !important;
+    }
+
+    .ant-empty-description
+    {
+        color: white !important;
+    }
+
+    /*[[header_logo_back]]*/
+
+    .ant-pagination-disabled a
+    {
+        color: dimgray !important;
+    }
+
+    .ant-table-thead>tr>th .ant-table-header-column .ant-table-column-sorters:hover:before
+    {
+        background: black !important;
+    }
+}
