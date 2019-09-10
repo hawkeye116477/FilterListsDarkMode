@@ -1,8 +1,8 @@
 ! Title: FilterLists Dark Mode
 ! Description: Dark theme for filterlists.com for uBO & AdGuard
 ! Codename: Dark FilterLists
-! Last modified: Tue, 10 Sep 2019, 13:50 UTC+02
-! Version: 2019.9.6
+! Last modified: Tue, 10 Sep 2019, 13:53 UTC+02
+! Version: 2019.9.7
 ! Expires: 2 days
 ! License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 !
@@ -15,7 +15,7 @@ filterlists.com##.ant-btn-primary:style(background-color: #1890ff;)
 filterlists.com##.ant-btn-sm:not(.ant-btn-primary):hover:style(background-color: #24292e !important; color: DodgerBlue !important; border: 1px solid DodgerBlue !important;)
 filterlists.com##.ant-btn-sm:not(.ant-btn-primary):style(background-color: #24292e !important; color: white !important; border: 1px solid dimgray !important;)
 filterlists.com##.ant-card, .ant-card-actions:style(background: inherit !important;)
-filterlists.com##.ant-card-bordered, .ant-card-bordered > *:style(border-color: dimgray;)
+filterlists.com##.ant-card-bordered, .ant-card-bordered > *:style(border-color: dimgray !important;)
 filterlists.com##.ant-card-head-title:style(color: white)
 filterlists.com##.ant-divider, .ant-layout-header:style(background-color: dimgray !important;)
 filterlists.com##.ant-drawer-body .ant-btn-group .ant-btn:hover:style(border: 1px solid DodgerBlue !important;)
