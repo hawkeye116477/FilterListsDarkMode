@@ -11,13 +11,16 @@
     .ant-dropdown-menu-item:hover,
     .ant-dropdown-menu-submenu-title:hover
     {
-        background: #095c9b;
+        background: #095c9b !important;
     }
 
     .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters .ant-table-filter-icon.ant-table-filter-open,
     .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters .anticon-filter.ant-table-filter-open,
     .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters:hover .ant-table-filter-icon:hover,
-    .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters:hover .anticon-filter:hover
+    .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters:hover .anticon-filter:hover,
+    .ant-table-filter-trigger-container:hover,
+    .ant-table-filter-trigger:hover,
+    .ant-table-thead th.ant-table-column-has-sorters:hover .ant-table-filter-trigger-container
     {
         color: white !important;
         background: black !important;
@@ -32,7 +35,9 @@
     .ant-table-row,
     .ant-table-header-column,
     .ant-table-thead,
-    .ant-input
+    .ant-input,
+    th,
+    td
     {
         background: #212529 !important;
         color: white !important;
@@ -219,4 +224,13 @@
         color: #5fb0ff !important;
     }
 
+    .ant-dropdown .ant-table-filter-dropdown-btns
+    {
+        border-top: 1px solid dimgray;
+    }
+
+    .ant-tag:hover
+    {
+        border: 1px solid DodgerBlue !important;
+    }
 }
