@@ -58,6 +58,13 @@
         color: white !important;
     }
 
+    .ant-drawer h1,
+    .ant-drawer h2,
+    .ant-drawer h3,
+    .ant-drawer h4,
+    .ant-drawer h5,
+    .ant-drawer h6,
+    .ant-drawer a,
     .ant-layout h1,
     .ant-layout h2,
     .ant-layout h3,
@@ -117,7 +124,8 @@
         color: white !important;
     }
 
-    .ant-tag
+    .ant-tag,
+    .ant-card-actions>li:not(:last-child)
     {
         border-color: dimgray !important;
     }
